@@ -1,11 +1,12 @@
 name:           tag-bits
-version:        0.1.1
+version:        0.1.1.1
 license:        BSD3
 license-file:   LICENSE
 author:         Edward A. Kmett
 maintainer:     Edward A. Kmett <ekmett@gmail.com>
 stability:      experimental
 homepage:       http://github.com/ekmett/tag-bits
+bug-reports:    http://github.com/ekmett/tag-bits/issues
 category:       Concurrency
 copyright:      (c) 2010 Edward A. Kmett
 build-type:     Simple
@@ -13,6 +14,7 @@ cabal-version:  >=1.6
 tested-with:    GHC==6.12.1
 synopsis:       Provides access to the dynamic pointer tagging bits used by GHC.
 description:    Provides access to the dynamic pointer tagging bits used by GHC.
+extra-source-files: .travis.yml
 
 extra-source-files: 
     README.markdown
