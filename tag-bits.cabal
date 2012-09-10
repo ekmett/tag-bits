@@ -1,5 +1,5 @@
 name:           tag-bits
-version:        0.1.1.1
+version:        0.1.1.2
 license:        BSD3
 license-file:   LICENSE
 author:         Edward A. Kmett
@@ -29,7 +29,7 @@ library
 
     build-depends:
       base >= 4 && < 6,
-      ghc-prim >= 0.2 && < 0.3
+      ghc-prim >= 0.2 && < 0.4
 
     exposed-modules:
       Data.TagBits
